@@ -51,10 +51,10 @@
   font-size: 1em;
   text-shadow: none;
   text-align: left;
-  -webkit-box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
-          box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  border-radius: 0.28571429rem;
+  border-radius: none;
   -webkit-transition: opacity 0.1s ease;
   transition: opacity 0.1s ease;
   z-index: 11;
@@ -86,7 +86,7 @@
 .ui.dropdown .menu > .item .dropdown.icon {
   width: auto;
   float: right;
-  margin: 0em 0em 0em 1em;
+  margin: 17px 0em 0em 1em;
 }
 .ui.dropdown .menu > .item .dropdown.icon + .text {
   margin-right: 1em;
@@ -114,7 +114,7 @@
   height: auto;
   text-align: left;
   border-top: none;
-  line-height: 1em;
+  line-height: 18px;
   color: rgba(0, 0, 0, 0.87);
   padding: 0.78571429rem 1.14285714rem !important;
   font-size: 1rem;
@@ -148,7 +148,7 @@
 .ui.dropdown .menu .item > .flag.floated,
 .ui.dropdown .menu .item > .image.floated,
 .ui.dropdown .menu .item > img.floated {
-  margin-top: 0em;
+  margin-top: 17px;
 }
 
 /*--------------
@@ -241,14 +241,14 @@
 .ui.dropdown > .text > .flag,
 .ui.dropdown > .text > img,
 .ui.dropdown > .text > .image {
-  margin-top: 0em;
+  margin-top: 23px;
 }
 .ui.dropdown .menu > .item > .icon,
 .ui.dropdown .menu > .item > .label,
 .ui.dropdown .menu > .item > .flag,
 .ui.dropdown .menu > .item > .image,
 .ui.dropdown .menu > .item > img {
-  margin-top: 0em;
+  margin-top: 17px;
 }
 .ui.dropdown > .text > .icon,
 .ui.dropdown > .text > .label,
@@ -435,22 +435,22 @@ select.ui.dropdown {
 }
 @media only screen and (max-width: 767px) {
   .ui.selection.dropdown .menu {
-    max-height: 8.01428571rem;
+    max-height: 59.01428571rem;
   }
 }
 @media only screen and (min-width: 768px) {
   .ui.selection.dropdown .menu {
-    max-height: 10.68571429rem;
+    max-height: 78.68571429rem;
   }
 }
 @media only screen and (min-width: 992px) {
   .ui.selection.dropdown .menu {
-    max-height: 16.02857143rem;
+    max-height: 118.02857143rem;
   }
 }
 @media only screen and (min-width: 1920px) {
   .ui.selection.dropdown .menu {
-    max-height: 21.37142857rem;
+    max-height: 157.37142857rem;
   }
 }
 
@@ -621,22 +621,22 @@ select.ui.dropdown {
 }
 @media only screen and (max-width: 767px) {
   .ui.search.dropdown .menu {
-    max-height: 8.01428571rem;
+    max-height: 59.01428571rem;
   }
 }
 @media only screen and (min-width: 768px) {
   .ui.search.dropdown .menu {
-    max-height: 10.68571429rem;
+    max-height: 78.68571429rem;
   }
 }
 @media only screen and (min-width: 992px) {
   .ui.search.dropdown .menu {
-    max-height: 16.02857143rem;
+    max-height: 118.02857143rem;
   }
 }
 @media only screen and (min-width: 1920px) {
   .ui.search.dropdown .menu {
-    max-height: 21.37142857rem;
+    max-height: 157.37142857rem;
   }
 }
 
@@ -999,13 +999,13 @@ select.ui.dropdown {
 .ui.dropdown .left.menu .item .dropdown.icon {
   width: auto;
   float: left;
-  margin: 0em 0em 0em 0em;
+  margin: 17px 0em 0em 0em;
 }
 .ui.dropdown .item .left.dropdown.icon,
 .ui.dropdown .left.menu .item .dropdown.icon {
   width: auto;
   float: left;
-  margin: 0em 0em 0em 0em;
+  margin: 17px 0em 0em 0em;
 }
 .ui.dropdown .item .left.dropdown.icon + .text,
 .ui.dropdown .left.menu .item .dropdown.icon + .text {
@@ -1131,25 +1131,25 @@ select.ui.dropdown {
 @media only screen and (max-width: 767px) {
   .ui.scrolling.dropdown .menu,
   .ui.dropdown .scrolling.menu {
-    max-height: 10.28571429rem;
+    max-height: 78.28571429rem;
   }
 }
 @media only screen and (min-width: 768px) {
   .ui.scrolling.dropdown .menu,
   .ui.dropdown .scrolling.menu {
-    max-height: 15.42857143rem;
+    max-height: 117.42857143rem;
   }
 }
 @media only screen and (min-width: 992px) {
   .ui.scrolling.dropdown .menu,
   .ui.dropdown .scrolling.menu {
-    max-height: 20.57142857rem;
+    max-height: 156.57142857rem;
   }
 }
 @media only screen and (min-width: 1920px) {
   .ui.scrolling.dropdown .menu,
   .ui.dropdown .scrolling.menu {
-    max-height: 20.57142857rem;
+    max-height: 156.57142857rem;
   }
 }
 
